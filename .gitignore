@@ -1,0 +1,24 @@
+# Data (too large for git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Models / large artifacts
+*.pkl
+*.bin
+models/
+
+# Env
+.env
+
+# OS
+.DS_Store
